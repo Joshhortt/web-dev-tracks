@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.evbuc.com/images/35739218/195834778248/2/logo.png" rel="icon">
+        <title>Web Developer Tracks</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-3.4.0.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1><img src="img/logo.png" alt="Epicodus" height="50" width="100"> A SCHOOL FOR TECH CAREERS</h1>
+            <h3 class="take-quiz">Take a short quiz to find the best Track for you!</h3>
+            <div class="jumbotron">
+                <div id="result">
+                    <p><span class="name"></span>, you should study...</p>
+                </div>
+                <div id="ruby">
+                    <img src="img/ruby.png" alt="Ruby logo" height="75" width="75">
+                    <p>Ruby on Rails. The Language is ideal for building interactive web applications. It is popular with startups and smaller companies. Ruby is a object-oriented programming language and uses mainly the Rails framework that makes many common tasks easier.</p>
+                </div>
+                <div id="css">
+                    <img src="img/frontend.png" alt="CSS logo" height="75" width="150">
+                    <p>front end interfaces, like HTML, Avanced CSS, JAVASCRIPT and DESIGN, because these languages and tools are executed directly in the browser and allows you to make an enjoyable experience for the user. It is widely used by startups and large companies</p>
+                </div>
+                <div id="csharp">
+                    <img src="img/csharp.png" alt="C sharp logo" height="75" width="75">
+                    <p>C# and the .NET. framework. The C# language is used by bigger, established Companies. The language also boasts a framework specially designed to work with it, to quickly create software and web apps. It's called the .NET framework from Microsoft.</p>
+                </div>
+                <button class="btn btn-outline-info btn-lg btn-block" id="return">Back to form</button>
+            </div>
+            <form id="survey">
+                <div class="form-control">
+                    <input id="name" type="text" placeholder="Your name" class="form-control">
+                </div>
+                <h5>Do you have an eye for design?</h5>
+                <select class="form-control" id="design">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <h5>Do you like to make things work faster and more efficiently?</h5>
+                <select class="form-control" id="fast">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+                <h5>Do you prefer to focus on how something works, or how something looks?</h5>
+                <select class="form-control" id="focus">
+                    <option value="looks">How it looks</option>
+                    <option value="works">How it works</option>
+                </select>
+                <h5>Would you prefer to work for a small or large company?</h5>
+                <select class="form-control" id="size">
+                    <option value="small">Small</option>
+                    <option value="large">Large</option>
+                </select>
+                <h5>Do you see yourself at a startup or a more established business?</h5>
+                <select class="form-control" id="bustype">
+                    <option value="start">Startup</option>
+                    <option value="est">Established Business</option>
+                </select>
+                <h5>Do you like Microsoft products?</h5>
+                <select class="form-control" id="mic">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+                <button type="submit" class="btn btn-outline-info btn-lg btn-block">Which track is right for me?</button>
+            </form>
+        </div>
+    </body>
+</html>
