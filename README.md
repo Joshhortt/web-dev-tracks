@@ -7,7 +7,7 @@ _By **Josh Hortt**_
 
 ## Goal
 
-_Create a Project web-page (using HTML, CSS, JavaScript and jQuery) where a user can answer questions about themselves_<br/>
+_Create a Project web-page where a user can answer questions about themselves_<br/>
 _and be given a Study Track based on their answers_.
 .
 ## Description
