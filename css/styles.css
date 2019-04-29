@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(194, 214, 239);
+  margin: 50px;
+  color: rgb(74, 74, 74);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h5 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+img {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  display: none;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.take-quiz  {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.name  {
+  color: rgb(0, 179, 180);
+  text-transform: capitalize;
+}
+
+#result #ruby #css #csharp {
+  display: none;
+}
